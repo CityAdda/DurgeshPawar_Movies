@@ -99,35 +99,26 @@
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/text_director"
+                            android:id="@+id/movie_headline"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Director: --"
+                            android:text="Headline: --"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
 
                         <TextView
-                            android:id="@+id/text_writer"
+                            android:id="@+id/movieSummery"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="Writer: --"
+                            android:text="Movie Summery: --"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
-                        <TextView
-                            android:id="@+id/text_plot"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
-                            android:text="Plot: --"
-                            android:textColor="#000000"
-                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/text_imd"
@@ -139,23 +130,14 @@
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
-                        <TextView
-                            android:id="@+id/text_metascore"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="4dp"
-                            android:fontFamily="@font/calibri"
-                            android:text="Metascore: --"
-                            android:textColor="#000000"
-                            android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/text_imdb_rating"
+                            android:id="@+id/text_rating"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:fontFamily="@font/calibri"
-                            android:text="IMBD Rating: --"
+                            android:text="Rating: --"
                             android:textColor="#000000"
                             android:textSize="16sp" />
                     </LinearLayout>
