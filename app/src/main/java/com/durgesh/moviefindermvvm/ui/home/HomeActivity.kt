@@ -63,6 +63,7 @@ class HomeActivity : AppCompatActivity(), KodeinAware {
         return true
     }
 
+
     private fun setupUI() {
         customAdapterMovies = CustomAdapterMovies()
         dataBind.recyclerViewMovies.apply {
