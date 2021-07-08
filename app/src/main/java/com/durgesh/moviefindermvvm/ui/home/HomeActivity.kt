@@ -50,7 +50,6 @@ class HomeActivity : AppCompatActivity(), KodeinAware {
         setupAPICall()
     }
 
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.search, menu)
         searchView = menu.findItem(R.id.search).actionView as SearchView
